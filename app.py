@@ -6,6 +6,25 @@ from datetime import datetime
 import plotly.express as px
 import plotly.graph_objects as go
 
+if "logado" not in st.session_state:
+    st.session_state.logado = False
+
+if not st.session_state.logado:
+    st.title("🔒 Acesso Restrito")
+    usuario = st.text_input("Usuário")
+    senha = st.text_input("Senha", type="password")
+    if st.button("Entrar"):
+        if usuario == "rhli" and senha == "Rhli@2026":
+            st.session_state.logado = True
+            st.rerun()
+        else:
+            st.error("Usuário ou senha incorretos.")
+    st.stop()
+
+if st.sidebar.button("Sair"):
+    st.session_state.logado = False
+    st.rerun()
+
 # --- Configuração da Página ---
 st.set_page_config(
     page_title="Dashboard de Controle de Afastamentos Médicos",
