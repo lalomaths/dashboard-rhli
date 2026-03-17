@@ -28,7 +28,7 @@ if st.sidebar.button("Sair"):
 # --- Configuração da Página ---
 st.set_page_config(
     page_title="Dashboard de Controle de Afastamentos Médicos",
-    page_icon="🩻",
+    page_icon="🩺",
     layout="wide",
     initial_sidebar_state="expanded"
 )
