@@ -888,8 +888,7 @@ ARQUIVOS = {
     "Dezembro 2025": "BASE DE DADOS DEZEMBRO 2025.csv",
     "Janeiro 2026":  "BASE DE DADOS JANEIRO 2026.csv",
     "Fevereiro 2026":"BASE DE DADOS FEVEREIRO 2026.csv",
-    # ↓ Adicione os próximos meses aqui conforme for avançando o ano:
-    # "Março 2026":    "BASE DE DADOS MARÇO 2026.csv",
+    "Março 2026":    "BASE DE DADOS MARÇO 2026.csv",
     # "Abril 2026":    "BASE DE DADOS ABRIL 2026.csv",
     # "Maio 2026":     "BASE DE DADOS MAIO 2026.csv",
     # "Junho 2026":    "BASE DE DADOS JUNHO 2026.csv",
