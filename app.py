@@ -156,7 +156,7 @@ CID_NOMES = {
     'C43':'Melanoma maligno da pele','C44':'Outras neo. malignas da pele',
     'C50':'Neo. maligna da mama','C53':'Neo. maligna do colo do útero',
     'C54':'Neo. maligna do corpo do útero','C56':'Neo. maligna do ovário',
-    'C61':'Neo. maligna da próstata','C67':'Neo. maligna da bexiga',
+    'C61':'Neo. maligna da próstata','C64':'Neo. maligna do rim, exceto pelve renal','C67':'Neo. maligna da bexiga',
     'C71':'Neo. maligna do encéfalo','C73':'Neo. maligna da tireoide',
     'C79':'Neo. maligna secundária','C80':'Neo. maligna sem especificação',
     'C81':'Doença de Hodgkin','C83':'Linfoma não-Hodgkin difuso',
